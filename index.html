@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin</title>
+
+    <link rel="stylesheet" href="css/font.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="container_full header_bg">
+        <div class="fix container">
+            <header id="header">
+                <div class="left_logo">
+                    <h1>Blogin</h1>
+                </div>
+                <nav>
+                    <ul id="menu">
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Work</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="mobile-view">
+                        <span onclick="openNav()">&#9776</span>
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
+                            <div class="overlay-content">
+                                <a onclick="closeNav()" href="">Home</a>
+                                <a onclick="closeNav()" href="">About</a>
+                                <a onclick="closeNav()" href="">Work</a>
+                                <a onclick="closeNav()" href="">Team</a>
+                                <a onclick="closeNav()" href="">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div class="container_full content_border">
+        <div class="fix container">
+            <div class="content_wrapper">
+                <section class="left_content">
+                    <article class="single_article">
+                        <img src="image/article-image.png" alt="">
+                        <h2>Duis aute irure dolor in henderit in voluptat</h2>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea
+                            commo doconsequat,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur...
+                        </p>
+                        <a class="continue_reading" href="#">Continue Reading</a>
+                    </article>
+                    <article class="single_article">
+                        <img src="image/article.png" alt="">
+                        <h2>Duis aute irure dolor in henderit in voluptat</h2>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipop ex ea
+                            commo doconsequat,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur...
+                        </p>
+                        <a class="continue_reading" href="#">Continue Reading</a>
+                    </article>
+                </section>
+                <div class="sidebar_wrapper">
+                    <aside class="single_sidebar">
+                        <h2>About Blogin</h2>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <p>
+                            Excepteur sint occaecat sunt in culpa qui
+                            officia deserunt mollit anim id est laborum.
+                        </p>
+
+                    </aside>
+                    <aside class="single_sidebar">
+                        <h2>Search</h2>
+                        <input type="text" class="search_box" placeholder="What are you looking for...">
+
+                    </aside>
+                    <aside class="single_sidebar">
+                        <h2>STAY TUNED</h2>
+                        <div class="email_submit">
+                            <input type="email" class="" placeholder="Your email">
+                            <input type="submit" id="search_submit">
+                        </div>
+
+
+                    </aside>
+                </div>
+            </div>
+            <div class="content_bottom">
+                <a href="#" class="previous">&larr; Previous</a>
+                <a href="#" class="next">Next &rarr;</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container_full">
+        <div class="fix container">
+            <footer id="footer">
+                <h1>Blogin</h1>
+                <p>&copy; 2014 Blogin.com - All Rights Reserved -
+                    Find more free Templates at Pixelhint.com</p>
+
+                <div class="social_icon">
+                    <ul>
+                        <li class="facebook"><a href=""></a></li>
+                        <li class="twitter"><a href=""></a></li>
+                        <li class="facebook"><a href=""></a></li>
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <!--
+        
+    <div class="container_full">
+        <div class="fix container">
+            
+        </div>
+    </div>
+    -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
